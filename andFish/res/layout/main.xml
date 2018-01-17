@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+	android:gravity="center_horizontal"
+    android:layout_height="fill_parent">
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="0dip"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:textColor="#80ff80"
+        android:text="AndroFish"/>
+    <TextView 
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text=""/>
+
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:orientation="horizontal" >
+	    <CheckBox android:id="@+id/cbPlayMusic"
+	            android:paddingBottom="24sp"
+		        android:paddingTop="24sp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" play music     " 
+	            android:checked="true" />
+	    <CheckBox android:id="@+id/cbPlaySound"
+	            android:paddingBottom="24sp"
+		        android:paddingTop="24sp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" play sound"
+	            android:checked="true" />
+	</LinearLayout>            
+
+    <TextView 
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text=""/>
+
+	<Button android:id="@+id/btStart"        
+  				android:layout_width="120dp"
+  				android:layout_height="wrap_content" 
+  				android:textSize="16dp"
+  				android:text="Start">
+      	<requestFocus />
+     	</Button>
+	<Button android:id="@+id/btHighscore"        
+  				android:layout_width="120dp"
+  				android:layout_height="wrap_content" 
+  				android:textSize="16dp"
+  				android:text="Highscore"/>
+	<Button android:id="@+id/btHelp"        
+  				android:layout_width="120dp"
+  				android:layout_height="wrap_content" 
+  				android:textSize="16dp"
+  				android:text="About"/>
+    <TextView 
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text=""/>
+	
+	<Button android:id="@+id/btExit"        
+  				android:layout_width="120dp"
+  				android:layout_height="wrap_content" 
+  				android:textSize="16dp"
+  				android:text="Exit"/>
+
+</LinearLayout>

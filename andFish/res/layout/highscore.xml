@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal" 
+			android:baselineAligned="true">
+    	<TextView 
+    			android:layout_width="50dp"
+    			android:layout_height="wrap_content" 
+    			android:text="" />
+		<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="vertical" 
+				android:baselineAligned="true">
+		    <TextView android:id="@+id/title"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0"
+		        android:paddingBottom="0dip"
+		        android:textStyle="bold"
+		        android:textSize="12pt"
+		        android:textColor="#80ff80"
+		        android:text="HIGHSCORE"/>
+		    <TableLayout android:id="@+id/table"
+		    		android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:stretchColumns="1">
+				<TableRow android:background="#FFE0E0E0" >
+			        <TextView
+				        android:textColor="#FF000000"
+			            android:text="Rank"
+			            android:padding="3dip" />
+			        <TextView
+				        android:textColor="#FF000000"
+			            android:text="Name"
+			            android:padding="3dip" />
+			        <TextView
+				        android:textColor="#FF000000"
+			            android:text="Level"
+			            android:padding="3dip" />
+			        <TextView
+				        android:textColor="#FF000000"
+			            android:text="Score"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="1."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="2."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="3."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="4."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="5."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="6."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="7."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="8."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="9."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+				<TableRow>
+			        <TextView
+			            android:text="10."
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="left"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="-"
+			            android:gravity="center_horizontal"
+			            android:padding="3dip" />
+			        <TextView
+			            android:text="0"
+			            android:gravity="right"
+			            android:padding="3dip" />
+			    </TableRow>
+    		</TableLayout>
+	 	</LinearLayout>
+	</LinearLayout>
+	<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="vertical" 
+			android:gravity="center_horizontal"
+			android:baselineAligned="true">
+		<Button android:id="@+id/btOk"        
+   				android:layout_width="60dp"
+   				android:layout_height="wrap_content" 
+   				android:textSize="10dp"
+   				android:text="OK">
+      	<requestFocus />
+      </Button>
+	</LinearLayout>
+</LinearLayout>

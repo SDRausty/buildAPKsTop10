@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+	android:gravity="left"
+    android:layout_height="fill_parent">
+    
+	<ScrollView 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+    
+	    <TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0"
+	        android:paddingBottom="0dip"
+	        android:textStyle="bold"
+	        android:textSize="12pt"
+	        android:textColor="#80ff80"
+	        android:text="About AndroFish"/>
+	    <TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="10dp"
+	        android:text=""/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="8pt"
+	        android:text="How to play:"/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="  Move your fish by touching the target position."/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="  Eat smaller fishes, avoid bigger fishes."/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="  Catch powerups if they bubble upwards."/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="  Watch the Food-Meter at the top right."/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="  If your food is used up, your fish shrinks."/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="  The more your fish moves, the more food it needs."/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="  The bigger the eaten fishes, the higher the score."/>
+	    <TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="20dp"
+	        android:text=""/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="8pt"
+	        android:text="Developers:"/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textSize="7pt"
+	        android:text="  Ferenc Hechler"/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textSize="7pt"
+	        android:text="  Patrick Pelletier"/>
+	    <TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="20dp"
+	        android:text=""/>
+	    <TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="8pt"
+	        android:text="Graphics:"/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textSize="7pt"
+	        android:text="  Animation by Stefan Höppe"/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textSize="7pt"
+	        android:text="  Background by Frank Fitzner"/>
+	    <TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="20dp"
+	        android:text=""/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="8pt"
+	        android:text="Music:"/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:autoLink="web"
+	        android:textSize="7pt"
+	        android:text="  http://www.mightymidi.com"/>
+	    <TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="20dp"
+	        android:text=""/>
+	    
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="8pt"
+	        android:text="Sourcecode:"/>
+		<TextView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:autoLink="web"
+	        android:textSize="7pt"
+	        android:text="  http://feri.sf.net"/>
+						
+	  </LinearLayout>
+	  </ScrollView>
+</LinearLayout>

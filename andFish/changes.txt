@@ -1,0 +1,61 @@
+v1.3.1 (2015-08-05):
+--------------------
+Changes from Patrick Pelletier to support higher resolutions. 
+Added new developer Patrick Pelletier to the about page.
+
+v1.3:
+-------
+removed online highscore, because it is no longer supported.
+
+v1.2:
+-------
+follow movement of touch-events.
+check installation status of online highscore.
+support offline highscore if online highscore is not installed.
+
+v1.1.1:
+-------
+hunger is three times lower if fish is not moved
+
+v1.1:
+-----
+use aHighScore for global Highscore
+
+v1.0:
+-----
+update to SDK 2.2 -> allow install to SD-Card.
+better Highscore
+pause when opening menu/pressing back
+
+
+v0.7:
+-----
+new background image(THX to Frank Fitzner).
+soundHandler using own thread.
+
+v0.6:
+-----
+sound and music
+
+v0.5:
+-----
+increase hunger for biggest fish
+
+v0.4:
+-----
+added High-Score
+added three speeds (easy, medium, hard)
+changed app name to "AndroFish"
+
+v0.3:
+-----
+powerup BigMouth
+
+v0.2:
+-----
+fixed problems with different dpi values
+
+
+v0.1:
+-----
+initial port from j2me
