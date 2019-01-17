@@ -292,7 +292,8 @@ public class MainActivity extends Activity {
 			e.printStackTrace();
 		}
 		if(keywords!=null){
-			loadUrl("https://www.google.com/search?q=" + keywords);
+			loadUrl("https://duckduckgo.com/html?q=" + keywords);
+			
 		}
 	}
 	
